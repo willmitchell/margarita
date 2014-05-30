@@ -5,10 +5,11 @@ db-packages:
   pkg:
     - installed
     - names:
-      - postgresql-contrib-9.1
-      - postgresql-server-dev-9.1
-      - postgresql-client-9.1
+      - postgresql-contrib-9.3
+      - postgresql-server-dev-9.3
+      - postgresql-client-9.3
       - libpq-dev
+      - postgresql-9.3-postgis-2.1
 
 postgresql:
   pkg:
